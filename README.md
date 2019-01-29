@@ -1,2 +1,2 @@
-# Reading-Notes
-Notes about my readings
+# 阅读笔记
+关于阅读的笔记，使用**typora**编写的。
