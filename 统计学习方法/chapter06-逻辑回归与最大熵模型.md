@@ -30,7 +30,7 @@ $$
 $$
 T =\{(x_1,y_1),(x_2,y_2),\cdots, (x_N, y_N)\}
 $$
-其中$x_i \in \mathcal{X} \subseteq	 R^n​$表示输入，$y_i \in \mathcal{Y}​$表示输出，$\mathcal{X}​$和$\mathcal{Y}​$分别表示输入空间和输出空间，$N​$是训练样本个数。利用最大熵原理选择一个最好的分类模型，即对于任意给定的输入$x \in \mathcal{X}​$，以条件概率$P(Y=y|X=x)​$输出$y　\in \mathcal{Y}​$。
+其中$x_i \in \mathcal{X} \subseteq	 R^n$表示输入，$y_i \in \mathcal{Y}$表示输出，$\mathcal{X}$和$\mathcal{Y}$分别表示输入空间和输出空间，$N$是训练样本个数。利用最大熵原理选择一个最好的分类模型，即对于任意给定的输入$x \in \mathcal{X}$，以条件概率$P(Y=y|X=x)$输出$y\in \mathcal{Y}​$。
 
 按照最大熵原理，先要保证模型满足已知的所有约束。那这些约束如何来提取？首先，从训练数据集$T​$中抽取若干个有利于分类的特征，然后要求这些特征在$T​$上关于经验分布$\widetilde{P}(X=x,Y=y)​$的数学期望与它们在模型中关于$P(X=x,Y=y)​$的数学期望相等。这样一个特征就对应一个约束。
 
