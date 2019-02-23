@@ -6,7 +6,7 @@
 
 假设输入空间（特征空间）是$n$维的，即$\mathcal{X} \subseteq R^n$，输出空间为$\mathcal{Y}=\{+1,-1\}$。对于输入$x \in \mathcal{X}$，其真实类别为$y\in \mathcal{Y}$。由输入空间映射到输出空间的函数形式如下：
 $$
-f(x)=sign(w \cdot x+b)
+f(x)=\text{sign}(w \cdot x+b)
 $$
 称为感知机。其中，$w$和$b$分别为感知机模型的权重和偏置，sign是符号函数。
 
